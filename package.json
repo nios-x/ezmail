@@ -1,0 +1,29 @@
+{
+  "name": "ezmail",
+  "version": "1.0.0",
+  "description": "ezmail is a very simple and easy to use mailing library uses Zod and Nodemailer at its back - Linkedin https://www.linkedin.com/in/soumya-jaiswal7708/",
+  "keywords": [],
+  "homepage": "https://github.com/nios-x/ezmail#readme",
+  "bugs": {
+    "url": "https://github.com/nios-x/ezmail/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nios-x/ezmail.git"
+  },
+  "license": "MIT",
+  "author": "Soumya Jaiswal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.29",
+    "nodemailer": "^7.0.3",
+    "zod": "^3.25.48"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.17"
+  }
+}
