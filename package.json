@@ -1,6 +1,6 @@
 {
   "name": "ezmail",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "ezmail is a very simple and easy to use mailing library uses Zod and Nodemailer at its back - Linkedin https://www.linkedin.com/in/soumya-jaiswal7708/",
   "keywords": [],
   "homepage": "https://github.com/nios-x/ezmail#readme",
