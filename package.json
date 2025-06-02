@@ -1,6 +1,6 @@
 {
   "name": "ezmail",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ezmail is a very simple and easy to use mailing library uses Zod and Nodemailer at its back - Linkedin https://www.linkedin.com/in/soumya-jaiswal7708/",
   "keywords": [],
   "homepage": "https://github.com/nios-x/ezmail#readme",
@@ -14,9 +14,11 @@
   "license": "MIT",
   "author": "Soumya Jaiswal",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"1Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "dependencies": {
     "@types/node": "^22.15.29",
